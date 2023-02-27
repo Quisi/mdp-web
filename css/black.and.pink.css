@@ -1,0 +1,69 @@
+/*Stylesheet style.css*/
+body {
+margin:0px;
+padding:0px;
+background-color:#000;
+color:#f0f;
+}
+a:link {
+color:#f0f;
+text-decoration:none;
+}
+a:hover {
+color:#f0f;
+text-decoration:none;
+}
+a:active{
+color:#f0f;
+text-decoration:none;
+}
+a:visited{
+color:#f0f;
+text-decoration:none;
+}
+#player {
+border:solid 0px;
+margin-left:70px;
+margin-right:70px;
+overflow:auto;
+}
+.ctrlimg {
+width:25px;
+height:25px;
+border:0px;
+vertical-align:middle;
+background-color:#f0f;
+}
+.listimg {
+background-color:#f0f;
+}
+.img {
+background-color:#f0f;
+}
+#playerctrl {
+min-width:400px;
+}
+.active {
+background-color:#808;
+}
+#seekbar {
+background-color:#505;
+height:20px;
+margin-left:5px;
+margin-right:5px;
+}
+#seekelapsed {
+width:150px;
+background-color:#f0f;
+height:20px;
+text-align:right;
+z-index:999;
+}
+#seekcoords {
+position:absolute;
+display:none;
+z-index:999;
+padding:5px;
+color:#f0f;
+background-color:#000000;
+}
