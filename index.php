@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['vz'])) {  $_SESSION['vz'] = '/'; } 
 // config
-$host = "192.168.2.127";
+$host = "<mpd-host-ip> # "192.168.1.100";
 $port = "6600";
 $spl=false;
 $ssl=false;
